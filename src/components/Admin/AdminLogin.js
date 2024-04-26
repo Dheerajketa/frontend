@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import logo from '../../images/Project logo.png';
-import AdminDashboard from '../user/AdminDashboard';
-
 export default function AdminLogin({onAdminLogin}) {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
