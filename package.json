@@ -20,7 +20,7 @@
   
   "scripts": {
     "start": "react-scripts start && start http://localhost:3000",
-    "build": "process.env.CI=false eslint . && webpack",
+    "build": "eslint . && webpack",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
